@@ -59,6 +59,7 @@ The project dataset contains the following categories:
 
 I organised the data into raw, cleaned, and feature-engineered datasets for further analysis and machine learning.
 
+
 ## Project Folder Structure
 
 
@@ -74,6 +75,20 @@ E-Commerce-Indian-ML-Prediction/
 ├── Predictions/
 ├── Screenshots/
 └── README.md
+
+Data Quality Validation
+The ETL process included validation checks such as:
+
+Removing duplicate customer, product and order records.
+Checking missing and invalid values.
+Standardizing IDs, text fields and column names.
+Converting numerical and date columns into appropriate data types.
+Validating positive quantities and non-negative financial values.
+Checking unique IDs and important business rules.
+Output
+The cleaned datasets were saved as separate CSV files.
+
+The original raw datasets were preserved, allowing the cleaned data to be used for Machine Learning and Power BI reporting.
 
 
 ## What I Learned From This Project
